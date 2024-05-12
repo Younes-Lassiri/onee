@@ -1,0 +1,50 @@
+table{
+    border-collapse: collapse;
+}
+
+th{
+    padding: 15px;
+    text-align: left;
+}
+td{
+    font-weight: 500;
+    text-align: left;
+    height: 50px;
+}
+.one-table td{
+    padding: 15px;
+}
+.two-table td{
+    padding: 15px;
+}
+
+input{
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.print{
+    margin-top: 50px;
+  background-color: #058FC1;
+  color: white;
+  padding: 15px 45px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.7s;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.print:hover{
+    color: #058FC1;
+    background-color: transparent;
+    border: 1px solid #058FC1;
+}
+
+@media print {
+    input{
+        border-top: 1px solid rgba(0, 0, 0, 0.644);
+    }
+}
